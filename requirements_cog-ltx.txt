@@ -1,0 +1,19 @@
+# Requirements for running main_all.py with --method cog or --method ltx
+# Versions were collected from the local conda environment: cog
+#
+# If you need to reinstall torch/torchvision with CUDA 12.8 wheels, use:
+# pip install --extra-index-url https://download.pytorch.org/whl/cu128 -r requirements_cog-ltx.txt
+
+accelerate==1.11.0
+diffusers==0.35.2
+einops==0.8.1
+huggingface-hub==0.36.0
+numpy==2.2.6
+Pillow==12.0.0
+protobuf==6.33.1
+safetensors==0.6.2
+scipy==1.16.3
+sentencepiece==0.2.1
+torch==2.9.0+cu128
+torchvision==0.24.0+cu128
+transformers==4.57.1
